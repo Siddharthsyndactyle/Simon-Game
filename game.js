@@ -54,7 +54,7 @@ $(".btn").on("click",function(event)
 })
 function playSound(a)
 {
-    var ar=new Audio("sounds/"+a+".mp3");
+    var ar=new Audio(a+".mp3");
     ar.play();
 }
 function animatePress(ar) {
